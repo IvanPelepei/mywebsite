@@ -1,32 +1,64 @@
 body {
-	font-family: Arial; background-color: #C0C0C0;
+	font-family: Arial; 
+	background-image: url("https://ivanpelepei.github.io/mywebsite/image for background.jpg");
 }
 
 .header {
-	background-color: white; color: #666666; height: 90px; text-transform:uppercase;
+	background-color: #ffffff; 
+	color: #666666; height: 90px; 
+	text-transform:uppercase;
 }
 
 .button {
-	color: white; background-color: red; padding: 15px; margin: 15px; text-decoration: none;
+	color: #ffffff; 
+	background-color: red; 
+	padding: 15px; margin: 15px; 
+	text-decoration: none;
 }
 
 .buttonlogin {
-	color: red; background-color: pink; padding: 15px ; margin: 15px; border:5px
-	
+	color: red; 
+	background-color: #ffc0cb; 
+	padding: 15px ; 
+	margin: 15px; 
+	border:5px;
+}
+.buttonmenu {
+	color: red; 
+	background-color: #ffffff; 
+	padding: 15px; margin: 15px; 
+	display: block;
+}
+.buttonmenu:hover{
+	background-color: #ffc0cb; 
 }
 
 .logo {
-	width: 70px; height: 70px; margin: 10px; float: left;
+	width: 70px; 
+	height: 70px; 
+	margin: 10px; 
+	float: left;
 	}
 .lowlogo {
-	width: 120px; height: 120px; margin: 10px; float: left;
+	width: 120px; 
+	height: 120px; 
+	margin: 10px; 
+	float: left;
 }
 	
 	
-.menu{ background-color: white; color: #666666; width: 25%; margin:20px;
+.menu{ 
+	background-color: #ffffff; 
+	color: #666666; 
+	width: 25%; 
+	margin:20px;
 }	
 	
-.lowblock { background-color: gray; color: #black; height:140px; paddind: 20px;
+.lowblock { 
+	background-color: #888888; 
+	color: #000000; 
+	height:140px; 
+	paddind: 20px;
 }
 
 .verticalalign90 {
@@ -40,17 +72,86 @@ body {
 
 
 .imgf {
-	height: 40px; width:40px
+	height: 40px; 
+	width:40px
 }
 
 .imgyou {
-	height: 40px; width:71px
+	height: 40px; 
+	width:71px
 }
 
 .leftblock {
-	background-color: white ; height: 700px ;
+	background-color: none ; 
+	height: 700px ;
+}
+
+.blockforproduct {
+	height: 350px; padding:20px;
 }
 
 .product {
-	height: 350px; background-color: white; padding:20px;
+	background-color: #ffffff; 
+	padding: 10px ; 
+	height: 320px; 
+	color: #666666; 
+	text-decoration: none;
+	text-align: center;
+}
+
+.product:hover{
+	background-color: #dddddd;
+	text-decoration: none;
+}
+
+.imageproduct {
+	width:100%;
+	margin-bottom: 5px;
+}
+
+.buttonbuy {
+	display: block;
+	background-color: #4682B4; 
+	color: #ffffff;
+	padding: 5px;
+	margin:10px;
+	text-align: none;
+}
+
+.buttonbuy:hover{
+	background-color: #2460a2; 
+	text-decoraion: none;
+	color: #ffffff;
+}
+
+
+.rightblock {
+	background-color: #c1ccff;
+	padding: 20px;
+	margin-top: 20px
+}
+
+.promocje {
+	text-align: center;
+	color: #2e2eb8;
+}
+
+.imageproductprom {
+	width:100%;
+	margin-bottom: 5px;
+
+}
+
+.productprom {
+	background-color: none; 
+	padding: 10px ; 
+	height: 270px; 
+	color: #666666; 
+	text-decoration: none;
+	text-align: center;
+}
+
+.productprom:hover{
+	background-color: #b0bbee;
+	text-decoration: none;
 }
