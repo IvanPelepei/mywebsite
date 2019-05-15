@@ -1,6 +1,8 @@
 body {
 	font-family: Arial; 
 	background-image: url("https://ivanpelepei.github.io/mywebsite/image for background.jpg");
+	background-size: cover;
+    	background-position: center;
 }
 
 .header {
@@ -55,10 +57,10 @@ body {
 }	
 	
 .lowblock { 
-	background-color: #888888; 
+	background-color: #ffffff; 
 	color: #000000; 
 	height:140px; 
-	paddind: 20px;
+	padding: 20px;
 }
 
 .verticalalign90 {
@@ -92,7 +94,7 @@ body {
 
 .product {
 	background-color: #ffffff; 
-	padding: 10px ; 
+	padding: 15px ; 
 	height: 320px; 
 	color: #666666; 
 	text-decoration: none;
@@ -154,4 +156,24 @@ body {
 .productprom:hover{
 	background-color: #b0bbee;
 	text-decoration: none;
+}
+
+/* autobody class  */
+
+.autobody {
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* social icons styles */
+
+.fa {
+font-size:48px;
+}
+.fa-facebook {
+color:	#337ab7;
+}
+.fa-youtube {
+color:#ef1b1b;
 }
