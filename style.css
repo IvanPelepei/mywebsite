@@ -59,7 +59,7 @@ body {
 .lowblock { 
 	background-color: #ffffff; 
 	color: #000000; 
-	height:140px; 
+	height:auto; 
 	padding: 20px;
 }
 
